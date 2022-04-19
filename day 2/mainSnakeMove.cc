@@ -45,8 +45,7 @@ int main()
     int key_left, key_right, key_down, key_up;
     
     std::string str;//char const* is string 
-    int fuck = 1;
-	while(fuck)
+	while(1)
 	{   
     key = wgetch(world_win);
     key_left  = (key == KEY_LEFT ) ? 1 : 0;
